@@ -1,0 +1,196 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #36bbce;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+    display: block;
+}
+
+nav {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 100px 25px 95px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: yellow;
+    text-decoration: none;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+
+.post-text {
+    font-size: 24px;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.post {
+    background-color: white;
+    padding: 15px 45px 30px 45px;
+    width: 400px;
+    margin: 20px;
+    position: relative;
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: #133aac;
+    color: yellow;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+    display: block;
+    border: double 15px blue;
+}
+
+.full-image {
+    margin: 100px 0px 100px 0px;
+}
+
+.social {
+    display: block;
+    width: 30px;
+}
+
+footer {
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 30px 20px 45px;
+}
+
+.footer-text1 {
+    font-size: 24px;
+    margin-right: 30px;
+}
+
+.footer-text1 span {
+    color: #850AE5;
+    font-weight: bolder;
+}
+.footer-text2{
+    font-size: 24px;
+    margin-right: 30px;
+}
+
+.footer-text2 span {
+    color: #850AE5;
+    font-weight: bolder;
+}
+.xp {
+    position: fixed;
+    right: 0%;
+    top: 50px;
+    background-color: #535360;
+    width: 200px;
+}
+
+.article-but:hover {
+    border: double 15px yellow;
+}
+
+.post-img:hover {
+    border: double 15px yellow;
+    font-size: 40px;
+}
+
+.post-img {
+    border: double 15px blue;
+}
+
+.nav-link:hover {
+    border-bottom: 10px double yellow;
+}
+
+.ggg {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 100px;
+}
+
+h1::after {
+    content:url("https://learn.logikaschool.com/uploads/student/1801669/65d20af8dac57.svg");
+    display: inline;
+    position: absolute;
+}
+
+.footer-text2::before{
+    display: inline;
+    content: url("https://learn.logikaschool.com/uploads/student/1801669/65d20eedb2ecc.svg");
+}
+
+.footer-text1::before{
+    display: inline;
+    content: url("https://learn.logikaschool.com/uploads/student/1801669/65d212aa446d6.png");
+}
+
+.post-text:hover {
+    transition: 1s;
+    color: yellowgreen;
+    border-bottom: 15px double yellowgreen;
+
+}
+
+.gg:hover {
+    transition: 1s;
+    color: #970;
+    border-bottom: 15px double #970;
+
+}
+
+.post:hover {
+    transition: 1s;
+    background-color: gold;
+}
+
+.social:hover {
+    transition: 1s;
+    border-bottom: 15px yellowgreen double;
+}
+
+.button:hover {
+    transition: 1s;
+    background-color: tomato;
+}
+
+.klkl:hover::after{
+    color: olive;
+    transition: 1s;
+    content: url(https://learn.logikaschool.com/uploads/student/1801669/65d36b25a9983.svg);
+    display: inline-block;
+    position: sticky;
+    
+}
